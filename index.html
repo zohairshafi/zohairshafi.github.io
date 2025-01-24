@@ -30,7 +30,7 @@
 						<header class="major">
 							<h1>About Me</h1>
 						</header>
-						<p style="text-align: justify;">I am a fourth year PhD student at <a href="https://www.khoury.northeastern.edu" target = "_blank">Khoury College of Computer Sciences</a> at Northeastern University in affiliation with the <a href="https://www.networkscienceinstitute.org" target = "_blank">Network Science Institute</a>. I am advised by <a href="http://eliassi.org" target = "_blank">Prof. Tina Eliassi-Rad</a>. My research revolves around the use of machine learning on graphs. More specifically, I work on graph representation learning, explainability in graph machine learning and machine learning for combinatorial optimisation problems.</p>
+						<p style="text-align: justify;">I am a fourth year PhD student at <a href="https://www.khoury.northeastern.edu" target = "_blank">Khoury College of Computer Sciences</a> at Northeastern University in affiliation with the <a href="https://www.networkscienceinstitute.org" target = "_blank">Network Science Institute</a>. I am advised by <a href="http://eliassi.org" target = "_blank">Prof. Tina Eliassi-Rad</a>. My research revolves around the use of machine learning on graphs. More specifically, I work on graph representation learning, explainability in graph machine learning, machine learning for combinatorial optimisation problems and robustness of graph machine learning models against adversarial attacks.</p>
 						<p style="text-align: justify;"> I was previously a Performance Engineer at <a href="https://www.akamai.com" target = "_blank">Akamai Technologies</a> where I built tools to resolve network bottlenecks and optimize performance metrics like throughput, content offload from origin servers and latency, across the Akamai network.</p>
 
 						<p style="text-align: justify;"> I am also an avid cyclist and mix music! <a href="https://www.youtube.com/@DeepHouseonDeepWheels" target = "_blank">[Link]</a></p>
@@ -48,7 +48,7 @@
 
 							<article class="col-12">
 								<a href="https://arxiv.org/abs/2412.05735" target="_blank" class="image fit thumb"><img src="images/thumbs/08.png" alt="" /></a>
-								<h2><b>REGE: A Method for Incorporating Uncertainty in Graph Embeddings</b><br>(SDM 2025)</h2>
+								<h2><b>REGE: A Method for Incorporating Uncertainty in Graph Embeddings</b><br> (SDM 2025)</h2>
 								<p><b>Zohair Shafi</b>, <a href="https://savcisens.com" target = "_blank"> Germans Savcisens</a>, <a href="http://eliassi.org" target = "_blank">Tina Eliassi-Rad</a></p>
 								<p style="text-align: justify;"><b>Abstract</b> 
 								Machine learning models for graphs in real-world applications are prone to two primary types of uncertainty: (1) those that arise from incomplete and noisy data and (2) those that arise from uncertainty of the model in its output. These sources of uncertainty are not mutually exclusive. Additionally, models are susceptible to targeted adversarial attacks, which exacerbate both of these uncertainties. In this work, we introduce Radius Enhanced Graph Embeddings (REGE), an approach that measures and incorporates uncertainty in data to produce graph embeddings with radius values that represent the uncertainty of the model's output. REGE employs curriculum learning to incorporate data uncertainty and conformal learning to address the uncertainty in the model's output. In our experiments, we show that REGE's graph embeddings perform better under adversarial attacks by an average of 1.5% (accuracy) against state-of-the-art methods.
@@ -59,7 +59,7 @@
 
 							<article class="col-12">
 								<a href="https://arxiv.org/abs/2406.07642" target="_blank" class="image fit thumb"><img src="images/thumbs/07.png" alt="" /></a>
-								<h2><b>Generating Human Understandable Explanations for Node Embeddings</b><br>(arXiv 2024)</h2>
+								<h2><b>Generating Human Understandable Explanations for Node Embeddings</b><br> (arXiv 2024)</h2>
 								<p><b>Zohair Shafi</b>, <a href="https://www.networkscienceinstitute.org/people/ayan-chatterjee" target = "_blank">Ayan Chatterjee</a>, <a href="http://eliassi.org" target = "_blank">Tina Eliassi-Rad</a></p>
 								<p style="text-align: justify;"><b>Abstract</b> 
 								Node embedding algorithms produce low-dimensional latent representations of nodes in a graph. These embeddings are often used for downstream tasks, such as node classification and link prediction. In this paper, we investigate the following two questions: (Q1) Can we explain each embedding dimension with human-understandable graph features (e.g. degree, clustering coefficient and PageRank). (Q2) How can we modify existing node embedding algorithms to produce embeddings that can be easily explained by human-understandable graph features? We find that the answer to Q1 is yes and introduce a new framework called XM (short for eXplain eMbedding) to answer Q2. A key aspect of XM involves minimizing the nuclear norm of the generated explanations. We show that by minimizing the nuclear norm, we minimize the lower bound on the entropy of the generated explanations. We test XM on a variety of real-world graphs and show that XM not only preserves the performance of existing node embedding methods, but also enhances their explainability. 
@@ -70,7 +70,7 @@
 
 							<article class="col-12">
 								<a href="https://arxiv.org/abs/2310.07979" target="_blank" class="image fit thumb"><img src="images/thumbs/06.png" alt="" /></a>
-								<h2><b>Graph-SCP: Accelerating Set Cover Problems with Graph Neural Networks</b><br>(arXiv 2023)</h2>
+								<h2><b>Graph-SCP: Accelerating Set Cover Problems with Graph Neural Networks</b><br> (arXiv 2023)</h2>
 								<p><b>Zohair Shafi</b>, <a href="https://www.ll.mit.edu/biographies/benjamin-miller" target = "_blank">Benjamin A Miller</a>, <a href="http://eliassi.org" target = "_blank">Tina Eliassi-Rad</a>, <a href="https://www.ll.mit.edu/biographies/rajmonda-s-caceres" target = "_blank">Rajmonda S. Caceres</a></p>
 								<p style="text-align: justify;"><b>Abstract</b> 
 								Machine learning (ML) approaches are increasingly being used to accelerate combinatorial optimization (CO) problems. We look specifically at the Set Cover Problem (SCP) and propose Graph-SCP, a graph neural network method that can augment existing optimization solvers by learning to identify a much smaller sub-problem that contains the solution space. We evaluate the performance of Graph-SCP on synthetic weighted and unweighted SCP instances with diverse problem characteristics and complexities, and on instances from the OR Library, a canonical benchmark for SCP. We show that Graph-SCP reduces the problem size by 30-70% and achieves run time speedups up to ~25x when compared to commercial solvers (Gurobi). Given a desired optimality threshold, Graph-SCP will improve upon it or even achieve 100% optimality. This is in contrast to fast greedy solutions that significantly compromise solution quality to achieve guaranteed polynomial run time. Graph-SCP can generalize to larger problem sizes and can be used with other conventional or ML-augmented CO solvers to lead to potential additional run time improvement. 
@@ -81,7 +81,7 @@
 
 							<article class="col-12">
 								<a href="https://arxiv.org/abs/2310.07980" target="_blank" class="image fit thumb"><img src="images/thumbs/05.png" alt="" /></a>
-								<h2><b>GRASP: Accelerating Shortest Path Attacks via Graph Attention</b><br>(Deep Learning on Graphs Workshop - KDD 2023)</h2>
+								<h2><b>GRASP: Accelerating Shortest Path Attacks via Graph Attention</b><br> (Deep Learning on Graphs Workshop - KDD 2023)</h2>
 								<p><b>Zohair Shafi</b>, <a href="https://www.ll.mit.edu/biographies/benjamin-miller" target = "_blank">Benjamin A Miller</a>, <a href="https://www.networkscienceinstitute.org/people/ayan-chatterjee" target = "_blank">Ayan Chatterjee</a>, <a href="http://eliassi.org" target = "_blank">Tina Eliassi-Rad</a>, <a href="https://www.ll.mit.edu/biographies/rajmonda-s-caceres" target = "_blank">Rajmonda S. Caceres</a></p>
 								<p style="text-align: justify;"><b>Abstract</b> 
 								Recent advances in machine learning (ML) have shown promise in aiding and accelerating classical combinatorial optimization algorithms. ML-based speed ups that aim to learn in an end to end manner (i.e., directly output the solution) tend to trade off run time with solution quality. Therefore, solutions that are able to accelerate existing solvers while maintaining their performance guarantees, are of great interest. We consider an APX-hard problem, where an adversary aims to attack shortest paths in a graph by removing the minimum number of edges. We propose the GRASP algorithm: Graph Attention Accelerated Shortest Path Attack, an ML aided optimization algorithm that achieves run times up to 10x faster, while maintaining the quality of solution generated. GRASP uses a graph attention network to identify a smaller subgraph containing the combinatorial solution, thus effectively reducing the input problem size. Additionally, we demonstrate how careful representation of the input graph, including node features that correlate well with the optimization task, can highlight important structure in the optimization solution.
@@ -162,7 +162,7 @@
 									<li>
 										<a href="pages/Resume.pdf" target = "_blank">
 											<h3 class="icon solid fa-file"><span class="label">Resume</span></h3>
-											<p>Updated September 2024</p>
+											<p>Updated January 2025</p>
 										</a>
 									</li>
 								</ul>
